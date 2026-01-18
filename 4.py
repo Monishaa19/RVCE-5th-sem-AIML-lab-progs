@@ -34,6 +34,10 @@ while True:
 # Convert the string into a function
 func = lambda x: eval(func_str)
 
+#or
+#def func(x):
+#   return eval(func_str)
+
 # Get the starting point from the user
 while True:
     start_str = input("\nEnter the starting value to begin the search: ")
